@@ -1,7 +1,44 @@
 # FrameworkCustomGreenColor
 
-framework with Swift Package Manager
+Simple framework pour définir une couleur en extension d'UIColor (UIKit)
 
-Method getCustomGreen()
+Pour créer le framework : sur la page d'accueil d'xcode, on ne se sert pas des raccourcis "Create a new Xcode project, Clone an existing project, ou Open a project or file".
 
-Use for example in repository "ExempleUseFrameworkCustomGreenColor"
+Selectionner File/New/Swift Package
+
+On nomme le projet "FrameworkCustomGreenColor"
+
+Dans le dossier sources, nous créerons tout ce qui concerne le projet, dans FrameworkCustomColorGreen.swift, nous créerons notre code.
+
+Changer le simulateur en iPhone ou iPad pour utiliser UIKit.
+
+Ajouter "import UIKit"
+
+Créer une extension à UIColor, et définir la fonction qui renvoi la couleur green customisée.
+
+N'oublier pas de renseigner la documentation ( ///....) et de spécifier l'extension en "privé" ou "public", sinon l'appel de la fonction ne pourra pas se faire.
+
+Créer le repository dans github et pusher le projet, pour pouvoir s'en servir dans un autre projet d'application (voir "ExempleUseFrameworkCustomGreenColor")
+
+______________________________________________________________________
+
+Simple framework to define a color in extension of UIColor (UIKit)
+
+To create the framework: on the xcode home page, the shortcuts "Cerate a new Xcode project, Clone an existing project, or Open a project or file" are not used.
+
+Select File / New / Swift Package
+
+Named the project "FrameworkCustomGreenColor"
+
+In the sources file, we will create everything related to the project, in FrameworkCustomColorGreen.swift, we will create our code.
+
+Change the simulator to iPhone or iPad to use UIKit.
+
+Add "import UIKit"
+
+Create an extension to UIColor, and define the function that returns the color green customized color.
+
+Do not forget to provide the documentation (///....) and specify the extension in "private" or "public", otherwise the call of the function will not be possible.
+
+Create the repository in github and push the project, to be able to use it in another application project (see "ExampleUseFrameworkCustomGreenColor")
+
