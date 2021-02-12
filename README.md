@@ -1,3 +1,5 @@
 # FrameworkCustomGreenColor
 
-A description of this package.
+framework with Swift Package Manager
+Method getCustomGreen()
+Use for example in repository "ExempleUseFrameworkCustomGreenColor"
